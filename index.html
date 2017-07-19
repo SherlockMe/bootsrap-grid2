@@ -1,5 +1,15 @@
 <html>
 <head>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+  ></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
@@ -11,16 +21,24 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+
 </head>
 <body>
     <style type="text/css">
-        .content {
-            height: 400px;
-            width: 500px;
-            background: #dbdfe5;
+
+        .box {
+       border-right-style:solid;
+       border-top-style: solid;
+       border-width: 5px;
+       border-color: white;
+       border-top-color: white;
+       background-color: #a0a0a0;
+       width: 400px;
+       height: 300px;
+     
         }
 
-        .content.bg {
+        .box.bg {
             background: #abb1b8;
         }
     </style>
@@ -28,27 +46,24 @@
 
     <body>
 
-        <div class="container">
+        <div class="container-fluid" style="">
 
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col">
-                    <div class="content">4</div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col"> <!-- xs12 1 sm6 2 md3lg3 4 -->
-                    <div class="content bg">4</div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col">
-                    <div class="content">4</div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col">
-                    <div class="content bg">4</div>
-                </div>
-
+            <div class="row-fluid" style="">
+                <div class="box col-xs-12 col-sm-6  col-md-3 col-lg-3  col">
+                    <div class="">TEST</div>
+                </div> 
+                   <div class="box col-xs-12  col-sm-6 col-md-3 col-lg-3 col">
+                    <div class="">TEST</div>
+                </div> 
+                   <div class="box col-xs-12 col-sm-6 col-md-3 col-lg-3 col">
+                    <div class="">TEST</div>
+                </div> 
+                   <div class="box col-xs-12 col-sm-6 c col-md-3 col-lg-3 col">
+                    <div class="">TEST</div>
+                </div> 
             </div>
+           
+
 
         </div>
 
@@ -56,3 +71,9 @@
     </body>
 
 </html>
+
+<script>
+
+
+
+</script>
